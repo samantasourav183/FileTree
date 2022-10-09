@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (max-device-width : 2560px) {
+/* .container{ width:80%;} */
+}
+
+@media only screen and (max-device-width : 2360px) {
+/* .container{ width:80%;} */
+
+}
+
+@media only screen and (max-width: 1920px) {
+/* .container{ width:1500px;} */
+
+}
+
+@media only screen and (max-width: 1800px) {
+/* .container{ width:1450px;} */
+
+}
+
+@media only screen and (max-width: 1600px) {
+/* .container{ width:1450px;} */
+
+}
+
+@media only screen and (max-width : 1440px) {
+	.container-fluid{ width:100%; padding-right: 15px; padding-left: 15px;}
+	html { font-size: 90%; }
+	.box_div ul.tabs li {width: 265px;}
+	.burger { right: 20px; }
+	.client_n {right: 80px; top: 75px;}
+	.modal-dialog { max-width: 50%; margin: 2rem auto 0; }
+	.modal-body { padding: 2rem 5rem 3rem; }
+	.modal-body .m_logo img { width: 30%; }
+
+
+}
+
+@media only screen and (max-width : 1380px) {
+	.box_div ul.tabs li {width: 255px;}
+
+}
+
+@media only screen and (max-width: 1366px) {
+	.box_div ul.tabs li {width: 250px;}
+	
+
+}
+
+@media only screen  and (max-width: 1200px) {
+	.box_div ul.tabs li {width: 220px; margin-bottom: 15px;}
+	.table-bordered td, .custom-select {font-size: 13px;}
+	.client_n {top: 75px;}
+}
+
+@media only screen  and (max-width: 1024px) {
+	.box_div ul.tabs li {width: 190px;}
+	.box_div .col-lg-6 { -ms-flex: 0 0 100%; flex: 0 0 100%; max-width: 100%; }
+	.m_margn { margin-bottom: 30px; }
+	.modal-dialog { max-width: 65%;}
+	.contact-links { padding: 5% 5% 3% 5%; }
+	.signin_heading { font-size: 32px;}
+}
+
+@media only screen  and (max-width: 991px) {
+	.box_div ul.tabs li { width: 180px; font-size: 1rem;}
+	.box_div h6 {font-size: 12px;}
+	.line_height { line-height: 40px !important; }
+	.footer {padding: 2rem 0;}
+
+}
+
+@media only screen  and (max-width: 768px) {
+	.box_div ul.tabs li { width: 172px; margin-right: 10px;}
+	.box_div ul.tabs {justify-content: inherit;}
+	.common_btn01 {width: 120px;}
+	.modal-dialog { max-width: 85%;}
+	.signin_heading { font-size: 28px; }
+	.contact-form-wrapper { padding: 0 3% 3% 3%;}
+
+}
+
+@media only screen  and (max-width: 767px) {
+	.header img { width: 25%; }
+	.burger {top: 55px;}
+	.client_n { top: 70px; }
+	.mail_div { font-size: 12px;}
+	.sec_02_top { float: none; display: inline-block;}
+	.table-bordered td, .table-bordered th { padding: 10px 10px; }
+	.custom-select { background-position: 0 7px; padding: 0 0 0 20px;}
+	#no-more-tables td:before {top: 12px;}
+	.sec_01 { padding: 0 0 4rem; }
+	.footer_logo { text-align: center; margin-bottom: 15px}
+	.footer_logo img { width: 25%; }
+}
+
+@media only screen  and (max-width: 667px) {
+	.box_div ul.tabs li { width: 152px; margin-right: 7px; }
+	.modal-body { padding: 1rem 3rem 2rem; }
+	.signin_logo img { width: 65%;}
+	.heading04 { font-size: 22px; }
+	.burger {top: 45px;}
+	.client_n { top: 60px; }
+	
+}
+
+@media only screen  and (max-width: 568px) {
+	.box_div ul.tabs li { width: 172px; margin-bottom: 10px;}
+	.table-bordered td i { margin: 0 3px; }
+	.table-bordered td, .table-bordered th { padding: 10px 6px; }
+	.modal-dialog { max-width: 90%; margin: 3rem auto 0;}
+	.contact-links, .contact-form-wrapper { width: 100%; }
+	.signin_logo img { width: 35%; }
+	.signin_logo { text-align: center; margin: 35px 0 20px;}
+	.contact-form-wrapper { padding: 0 3% 15% 3%; }
+	
+}
+
+@media only screen  and (max-width: 425px) {
+	.box_div ul.tabs { display: none; }
+	.primary_div .text-right { float: left; }
+	.common_btn01, .sec_02_top {padding: 8px;}
+	.sec_02_top {margin-bottom: 10px;}
+	.sec_02_top h3 { font-size: 15px;}
+	.document { margin-bottom: 10px; padding: 15px 15px;}
+	.footer_logo img, .header img { width: 40%; }
+	.footer p {font-size: 13px;}
+	.sec_02_top ul li a { padding: 0 6px; }
+	.modal-body { padding: 1rem 1rem 2rem; }
+	.modal-body .selected-item, .input_field01 {font-size: 13px; height: 40px; line-height: 30px;}
+	.modal-body .custom-select { height: 40px;}
+	.signin_logo img { width: 45%; }
+	.contact-form-wrapper p {bottom: 20px;}
+	.contact-form-wrapper select {font-size: 13px; height: 40px; line-height: 30px;}
+	
+}
+
+@media only screen  and (max-width: 414px) {
+	.d_active {font-size: 14px;}
+	.sec_02_top h3 { font-size: 13px; }
+	.contact-form-wrapper { padding: 0 3% 18% 3%; }
+	
+}
+
+@media only screen  and (max-width: 384px) {
+	.table-bordered td, .custom-select { font-size: 12px; }
+
+}
+
+@media only screen  and (max-width: 375px) {
+	
+}
+
+@media only screen  and (max-width: 360px) {
+
+}
+
+@media only screen  and (max-width: 320px) {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
