@@ -16,7 +16,7 @@ namespace FileTree.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-
+            int i = 0;
             return View();
         }
 
